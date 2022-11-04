@@ -4,27 +4,27 @@ import { colors } from "styles/GlobalStyle"
 
 const colorVariations = {
   default: css`
-    background-color: ${colors.third};
-    outline: 0.2rem outset ${colors.third};
+    background-color: ${colors.secondary};
+    outline: 0.2rem outset ${colors.secondary};
   `,
   add: css`
     background-color: ${colors.primary};
     outline: 0.2rem outset ${colors.primary};
   `,
   edit: css`
-    background-color: ${colors.success};
-    outline: 0.2rem outset ${colors.success};
+    background-color: ${colors.secondary};
+    outline: 0.2rem outset ${colors.secondary};
   `,
   remove: css`
-    background-color: ${colors.danger};
-    outline: 0.2rem outset ${colors.danger};
+    background-color: ${colors.primary};
+    outline: 0.2rem outset ${colors.primary};
   `
 }
 
 export const Botao = styled.button<ButtonProps>`
   color: ${colors.white};
   font-weight: bold;
-  background-color: ${colors.third};
+  background-color: ${colors.secondary};
   padding: 0.6rem;
   border: 0;
   border-radius: 0.6rem;

@@ -1,4 +1,4 @@
-mport { HTMLProps } from "react";
+import { HTMLProps } from "react";
 
 export interface ButtonProps {
   bgColor?: 'default' | 'add' | 'edit' | 'remove'
