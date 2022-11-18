@@ -1,7 +1,7 @@
 export interface ICard {
   dados: {
     id: number,
-    cpf: string,
-    numero_cartao: string,
+    title: string,
+    message: string,
   }
 }

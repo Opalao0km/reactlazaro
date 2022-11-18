@@ -9,8 +9,8 @@ const Card = ({ dados }: ICard) => {
       {dados && (
         <div key={dados.id}>
           <h3>Digite seus dados para doação</h3>
-          <h3>cpf: {dados.cpf}</h3>
-          <h3>Número do cartão: {dados.numero_cartao}</h3>
+          <h3>title: {dados.title}</h3>
+          <h3>Message: {dados.message}</h3>
         </div>
       )}
     </S.Card>
