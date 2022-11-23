@@ -3,6 +3,9 @@ import { GrLogout } from "react-icons/gr";
 import * as S from "./styles";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "hooks/authHook";
+import logo from "../../assets/img/ukraine 1.png"
+
+
 const Menu = () => {
   const { user, signOut } = useAuth()
   const navigate = useNavigate();
@@ -14,7 +17,7 @@ const Menu = () => {
     <S.Cabecalho>
       <picture>
         <Link to="/">
-          <FcReuse />
+          <img src={logo} alt="" />
         </Link>
       </picture>
       <nav>

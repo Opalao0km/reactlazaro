@@ -1,8 +1,8 @@
 const dados = [
   {
     id: 1,
-    cpf: "943949499",
-    numero_cartao: "32502385",
+    title: "943949499",
+    message: "32502385",
   },
   
 ]
